@@ -1,30 +1,49 @@
 <script>
-	let promise = pegaLojinha();
+	import Header from './Header.svelte'
+	import Gondola from './Gondola.svelte'
+	let promise = pegaLojinha()
 
 	async function pegaLojinha() {
-		const res = await fetch(`resources/stock.json`);
-		const text = await res.text();
-
+		const res = await fetch(`resources/stock.json`)
+		const text = await res.text()
+		let result = []
 		if (res.ok) {
-			return JSON.parse(text);
+			result= JSON.parse(text)
 		} else {
-			throw new Error(text);
+			throw new Error(text)
+			return result
 		}
+		result = await result.map((x)=>{
+			x.src='./images/'.concat(x.img).concat('.jpg')
+  			return x
+		});          
+		return result
 	}
 
 </script>
 
+<style>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+      height:100vh;      
+      background: transparent;      
+      font-family: 'Raleway', sans-serif;
 
-{#await promise}
-	<p>...waiting</p>
-{:then lujinha}
-	<ol>
-		{#each lujinha as { id, nome,valor,descricao }, i}
-		<li>{nome} {valor}</li>
-		<details>{descricao}</details>
+  }   
+    
+</style>
 
-	{/each}
-	</ol>
-{:catch error}
-	<p style="color: red">{error.message}</p>
-{/await}
+<body>
+	{#await promise}
+		<p>...waiting</p>
+	{:then itens}
+		<Header/>
+		<Gondola itens={itens}/>
+	{:catch error}
+		<p style="color: red">{error.message}</p>
+	{/await}
+</body>
