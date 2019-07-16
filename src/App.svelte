@@ -60,6 +60,8 @@
 </style>
 <svelte:head>
 	<title>ShopShop - Sua loja estática!</title>
+	<link rel="icon" type="image/x-icon"  href="resources/favicon.ico">
+
 </svelte:head>
 
 <body>
