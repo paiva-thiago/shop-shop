@@ -2,7 +2,7 @@
 
 Um dia estava vendo o mundo estático em CMS como o [Jekyll](https://jekyllrb.com/).
 
-Outro dia vi os botões do [pagseguro](https://pagseguro.uol.com.br/)...
+Outro dia vi os botões do [pagseguro](https://pagseguro.uol.com.br/para-seu-negocio/online/venda-rapida#blog-site)...
 
 E aí pra completar conheci o [svelte](http://svelte.dev)
 
