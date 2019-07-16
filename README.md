@@ -1,68 +1,21 @@
-*Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# shop-shop
 
----
+Um dia estava vendo o mundo estático em CMS como o [Jekyll](https://jekyllrb.com/).
 
-# svelte app
+Outro dia vi os botões do [pagseguro](https://pagseguro.uol.com.br/)...
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+E aí pra completar conheci o [svelte](http://svelte.dev)
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+E pensei... porque não uma loja estática?
 
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
+## Importante
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+Já dá pra trabalhar e customizar usando o arquivo `public/resources/data.json`. Porém ainda tem bastante coisa a mexer e corrigir (afinal esta loja foi uma forma que encontrei de estudar svelte, e olha - estou gostando demais de trabalhar com essa ferramenta!), e como estou estudando, deve ter muita coisa ainda a ser ajustada.
 
+Além de correções ainda estou pensando em fazer coisas novas.
 
-## Get started
+Alguma ideia? Chama aí nas issues! :)
 
-Install the dependencies...
+## Pai da criança
 
-```bash
-cd svelte-app
-npm install
-```
-
-...then start [Rollup](https://rollupjs.org):
-
-```bash
-npm run dev
-```
-
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-
-## Deploying to the web
-
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
-```
-
-Then, from within your project folder:
-
-```bash
-now
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
-```
+[Thiago Paiva](http://paiva-thiago.github.io/)
