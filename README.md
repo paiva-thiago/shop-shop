@@ -1,6 +1,6 @@
 # shop-shop
 
-Um dia estava vendo o mundo estático em CMS como o [Jekyll](https://jekyllrb.com/).
+Um dia, pensando numa forma de presentear um amigo que tava juntando grana pra casar com uma [Loja com presentes fictícios para presentear os pombinhos com dinheiro](http://casei.vix.br/), estava vendo o mundo estático em CMS como o [Jekyll](https://jekyllrb.com/).
 
 Outro dia vi os botões do [pagseguro](https://pagseguro.uol.com.br/para-seu-negocio/online/venda-rapida#blog-site)...
 
@@ -15,6 +15,10 @@ Já dá pra trabalhar e customizar usando o arquivo `public/resources/data.json`
 Além de correções ainda estou pensando em fazer coisas novas.
 
 Alguma ideia? Chama aí nas issues! :)
+
+## Outra coisa bem importante
+
+Na fase em que estamos, notou que não tem como por endereço ainda né? :D então até o momento este gerador de lojinha atende casos como o do meu amigo (inclusive se você ver os produtos são os mesmos dos exemplos daqui!).
 
 ## Pai da criança
 
