@@ -18,7 +18,7 @@ Alguma ideia? Chama aí nas issues! :)
 
 ## Outra coisa bem importante
 
-Na fase em que estamos, notou que não tem como por endereço ainda né? :D então até o momento este gerador de lojinha atende casos como o do meu amigo (inclusive se você ver os produtos são os mesmos dos exemplos daqui!).
+~Na fase em que estamos, notou que não tem como por endereço ainda né? :D então até o momento este gerador de lojinha atende casos como o do meu amigo (inclusive se você ver os produtos são os mesmos dos exemplos daqui!).~ O botão do pagseguro já dá suporte e registra por lá, então é isso aí, rs.
 
 ## Pai da criança
 
